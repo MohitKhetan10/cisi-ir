@@ -15,13 +15,27 @@ This project implements an IR pipeline on the **CISI dataset**, comparing **TF-I
 - BM25 retrieval
 - Evaluation metrics: MAP, Precision@10, nDCG@10, MRR
 
-## 📊 Example Results
+## 📊 Results
 | Model   | MAP   | Precision@10 | nDCG@10 | MRR   |
 |---------|-------|--------------|---------|-------|
 | TF‑IDF  | 0.165 | 0.323        | 0.352   | 0.576 |
 | BM25    | 0.186 | 0.341        | 0.377   | 0.619 |
 
-## ▶️ Usage
-Run the demo notebook:
+
+##  License
+This project is licensed under the MIT License.
+
+## 📊 Dependencies
+
+pip install numpy pandas scikit-learn nltk matplotlib seaborn tqdm
+
+## ⚙️ Installation
+
+Clone the repository and install dependencies:
+
 ```bash
-jupyter notebook notebooks/cisi_ir_demo.ipynb
+git clone https://github.com/MohitKhetan10/cisi-ir.git
+cd cisi-ir
+pip install numpy pandas scikit-learn nltk matplotlib seaborn tqdm
+
+
